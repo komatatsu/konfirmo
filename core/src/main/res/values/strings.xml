@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">konfirmo</string>
+
+    <string name="required">必須</string>
+    <string name="max_length">最大%d文字</string>
+    <string name="min_length">最低%d文字</string>
+    <string name="max_lines">最大%d行</string>
+    <string name="format_number">数値のみ</string>
+    <string name="format_date">日付形式（YYYY-MM-DD）</string>
+    <string name="format_zip">郵便番号形式（000–0000）</string>
+</resources>
