@@ -1,16 +1,31 @@
 # konfirmo
 
+[![](https://jitpack.io/v/komatatsu/konfirmo.svg)](https://jitpack.io/#komatatsu/konfirmo)
+
 konfirmo is a validation tool for Android created by kotlin.
 
-Perform validation and button activation.
+Perform validation and button activation.  
 It is necessary to set konfirmo from the code for every activity to use.
 
-You can set multiple validation rules in one EditText.
+You can set multiple validation rules in one EditText.  
 Messages are concatenated and output.
 
 ## Installation
 
-TBD
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+```
+dependencies {
+    implementation 'com.github.komatatsu:konfirmo:v0.1'
+}
+```
 
 ## Usage
 
@@ -18,7 +33,7 @@ TBD
 Konfirmo(context).addRuleSet(RuleSet(editText).addRule(Rule.REQUIRED)).initialize()
 ```
 
-Create one RuleSet per EditText.
+Create one RuleSet per EditText.  
 Multiple rules can be set in RuleSet.
 
 ```kotlin
