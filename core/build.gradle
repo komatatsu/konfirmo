@@ -1,6 +1,7 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 28
@@ -22,6 +23,9 @@ android {
         }
     }
 }
+
+group = 'app.komatatsu.konfirmo'
+version = '0.2'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
