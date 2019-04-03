@@ -23,7 +23,7 @@ allprojects {
 
 ```
 dependencies {
-    implementation 'com.github.komatatsu:konfirmo:v0.1'
+    implementation 'com.github.komatatsu:konfirmo:0.2'
 }
 ```
 
